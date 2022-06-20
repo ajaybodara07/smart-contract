@@ -29,6 +29,9 @@ export class CitizenCard extends React.Component<Props, State> {
           <User />
         </div>
         <div className="info">
+        <div className="row">
+            <span className="label"> Details:</span> {this.props.data.details}
+          </div>
           <div className="row">
             <span className="label"> Name:</span> {this.props.data.name}
           </div>
