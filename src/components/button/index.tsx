@@ -19,14 +19,18 @@ export class Button extends React.Component<Props, State> {
 
   render() {
     return (
-      <button
-        onClick={this.props.onClick}
-        className={
-          "common-button " + (this.props.className ? this.props.className : "")
-        }
-      >
-        {this.props.text}
-      </button>
+      <>
+        <button
+          onClick={this.props.onClick}
+          className={
+            "common-button " +
+            (this.props.className ? this.props.className : "")
+          }
+        >
+          {this.props.text}
+        </button>
+        <button>cancel</button>
+      </>
     );
   }
 }
