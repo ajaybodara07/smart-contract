@@ -20,9 +20,6 @@ contract CitizenStorage {
         addCitizen(4, 41, "Abu Dhabi", "Alla", "Some of Alla's notes");
         addCitizen(5, 18, "Abu Dhabi", "Patrick", "Some of Patrick's notes");
         addCitizen(6, 18, "Ajman", "Bob", "Some of Bob's notes");
-        addCitizen(7, 33, "Ajman", "Alice", "Some of Alice's notes");
-        addCitizen(8, 42, "Ras Al Khaimah", "Dan", "Some of Dan's notes");
-        addCitizen(9, 20, "Sharjah", "Tim", "Some of Tim's notes");
     }
 
     function addCitizen(
